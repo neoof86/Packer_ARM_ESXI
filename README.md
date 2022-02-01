@@ -12,5 +12,14 @@ Tested with **VMware ESX 7** and Ubuntu ISOs ubuntu-20.04.3-live-server-arm64 & 
 * Packer --> https://www.packer.io
 
 # How to use: #
-Modify the variablesarm.json to include your setup such as SSO password and ARM clusters
-execute **packer build -var-file=variablesarm.json ubuntuarm.json**
+- Modify the variablesarm.json to include your setup such as SSO password and ARM clusters
+- Execute **packer build -var-file=variablesarm.json ubuntuarm.json**
+
+
+# To Do: #
+
+- [x] Get initial version working
+- [ ] Document all changes to get this working
+- [ ] Fix SSH Keys Regen Issue
+- [ ] Find other OS for ARM to test
+- [ ] Merge into https://github.com/vmware-samples/packer-examples-for-vsphere

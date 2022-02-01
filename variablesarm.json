@@ -1,0 +1,20 @@
+{
+    "vsphere-server": "vcsa.tld.co.uk",
+    "vsphere-user": "administrator@sso.domain",
+    "vsphere-password": "Sup3rS3cuR3!",
+
+    "vsphere-datacenter": "YourDC",
+    "vsphere-cluster": "YourCluster",
+    "vsphere-network": "Your VM Network",
+    "vsphere-datastore": "datastorename",
+    "vsphere-folder": "Templates",
+    "vm-cpu-num": "4",
+    "vm-mem-size": "4096",
+
+    "os-disk-size": "20480",
+    "disk-thin-provision": "true",
+    "ubuntu_vm_name": "UbuntuARM",
+    "ubuntu_iso_paths": "./ISOs/ubuntu-20.04.3-live-server-arm64.iso",
+    "ubuntu_ssh_username": "ubuntu",
+    "ubuntu_ssh_password": "ubuntu"
+ }
